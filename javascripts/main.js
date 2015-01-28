@@ -15,6 +15,7 @@ $(function(){
             content: course['name'],
             start: start,
             end: end.format('YYYY-MM-DD'),
+            className: URLify(course['categories'][0] || 'none')
           })
         }
       })
@@ -33,7 +34,7 @@ $(function(){
          item: 2
        },
        zoomable: false,
-       zoomMax: 40000000000,
+       zoomMax: 30000000000,
        min: new Date(2013, 9, 1),
        max: moment().add(6, 'months')
      };

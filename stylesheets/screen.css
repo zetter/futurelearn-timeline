@@ -17,24 +17,74 @@ h1 {
 
 
 .vis.timeline .item {
-  padding: 1px;
-  background-color: #DDDEDF;
+  padding: 2px;
+  padding-left: 2px;
+  background-color: #F0F0F1;
   border-color: #929497;
   cursor: pointer;
 }
 
+
+.vis.timeline .currenttime {
+  background-color: #DE00A5;
+  width: 2px;
+}
+
+.vis.timeline .item {
+  border-left: 6px solid #fff;
+}
+
+.vis.timeline .item.none {
+  border-left-color: #FFF;
+}
+
+.vis.timeline .item.business-management {
+  border-left-color: #30a5d2;
+}
+.vis.timeline .item.creative-arts-media {
+  border-left-color: #922382;
+}
+.vis.timeline .item.health-psychology {
+  border-left-color: #e44d0d;
+}
+.vis.timeline .item.history {
+  border-left-color: #726351;
+}
+.vis.timeline .item.languages-cultures {
+  border-left-color: #9a4a00;
+}
+.vis.timeline .item.law {
+  border-left-color: #ecba18;
+}
+.vis.timeline .item.literature {
+  border-left-color: #c7ac61;
+}
+.vis.timeline .item.nature-environment {
+  border-left-color: #4f9f15;
+}
+.vis.timeline .item.online-digital {
+  border-left-color: #583ab7;
+}
+.vis.timeline .item.politics-modern-world {
+  border-left-color: #212015;
+}
+.vis.timeline .item.science-maths-technology {
+  border-left-color: #00529f;
+}
+.vis.timeline .item.sport-leisure {
+  border-left-color: #cc4045;
+}
+.vis.timeline .item.teaching-studying {
+  border-left-color: #c744bf;
+}
+
 .vis.timeline .item:hover {
-  background-color: #DDDEDF;
-  border-color: #929497;
   cursor: pointer;
 }
 
 .vis.timeline .item.selected {
   background-color: #FECB51;
-  border-color: #929497;
-}
-
-.vis.timeline .currenttime {
-  background-color: #DE00A5;
-  width: 2px;
+  border-top-color: #929497;
+  border-bottom-color: #929497;
+  border-right-color: #929497;
 }
