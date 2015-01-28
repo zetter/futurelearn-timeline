@@ -30,6 +30,10 @@ h1 {
   width: 2px;
 }
 
+.vis .foreground {
+  cursor: all-scroll;
+}
+
 .vis.timeline .item {
   border-left: 6px solid #fff;
 }
