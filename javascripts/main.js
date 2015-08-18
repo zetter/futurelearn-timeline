@@ -41,14 +41,14 @@ $(function(){
 
      var timeline = new vis.Timeline(container, data, options);
 
-     $('.item').hover(function(e){
+     $('.vis-item').hover(function(e){
        var text = $(e.target).text()
-       $('.item').removeClass('selected').filter(function(i, item){
+       $('.vis-item').removeClass('vis-selected').filter(function(i, item){
          return ($(item).text() === text)
-       }).addClass('selected')
+       }).addClass('vis-selected')
      });
 
-     $('.item').click(function(e){
+     $('.vis-item').click(function(e){
        var text = $(e.target).text()
        window.location = links[text]
      });
