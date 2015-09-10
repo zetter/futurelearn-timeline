@@ -1,0 +1,1 @@
+curl https://www.futurelearn.com/feeds/courses.json > public/javascripts/courses.json
