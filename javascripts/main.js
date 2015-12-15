@@ -36,7 +36,7 @@ $(function(){
        zoomable: false,
        zoomMax: 30000000000,
        min: new Date(2013, 9, 1),
-       max: moment().add(6, 'months')
+       max: moment().add(10, 'months')
      };
 
      var timeline = new vis.Timeline(container, data, options);
